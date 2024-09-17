@@ -1,0 +1,470 @@
+[2024-09-10 16:44:24] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-09-10 16:44:24] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-09-10 16:44:24] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-09-10 16:44:24] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-09-10 16:44:24] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-09-10 16:44:24] [class-ss-task.php:44] Status message: [setup] Configurar
+[2024-09-10 16:44:24] [class-ss-setup-task.php:33] Creating archive directory: C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664\
+[2024-09-10 16:44:24] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/valdemoroSierra/
+[2024-09-10 16:44:25] [class-ss-setup-task.php:137] File C:\wamp64\www\valdemoroSierra\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/wamp64/www/valdemoroSierra/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-10 16:44:25] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-09-10 16:44:25] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-10 16:44:25] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-10 16:44:25] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-09-10 16:44:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/
+[2024-09-10 16:44:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-09-10 16:44:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e077690328c-vlFNvF.tmp
+[2024-09-10 16:44:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/?simply_static_page=1
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/?simply_static_page=1
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:103] Filesize: 84659 bytes
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-09-10 16:44:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e077690328c-vlFNvF.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/index.html
+[2024-09-10 16:44:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:26] [class-ss-page.php:119] Checking Content Identical:4fa600acd524a1aea031bbe3d02342c615cca157===. Value: FALSE
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:72] URL: C:/wamp64/www/valdemoroSierra/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-10 16:44:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-09-10 16:44:26] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 2 páginas o archivos
+[2024-09-10 16:44:26] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-10 16:44:26] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-10 16:44:26] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra
+[2024-09-10 16:44:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0776aeae7c-zgf2Me.tmp
+[2024-09-10 16:44:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra?simply_static_page=3
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra?simply_static_page=3
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:103] Filesize: 368 bytes
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-09-10 16:44:26] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/valdemoroSierra/
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/pagina-ejemplo/
+[2024-09-10 16:44:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-09-10 16:44:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0776af3e1d-piq0L9.tmp
+[2024-09-10 16:44:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/pagina-ejemplo/?simply_static_page=4
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/pagina-ejemplo/?simply_static_page=4
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:103] Filesize: 60327 bytes
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/index.html
+[2024-09-10 16:44:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0776af3e1d-piq0L9.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/pagina-ejemplo/index.html
+[2024-09-10 16:44:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:28] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-09-10 16:44:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:28] [class-ss-page.php:119] Checking Content Identical:4dd05a7fc9aa73aeb97b5c798e2914f6352ce5dc===. Value: FALSE
+[2024-09-10 16:44:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/2024/09/10/hola-mundo/
+[2024-09-10 16:44:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-09-10 16:44:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0776ccc0e5-j6gLWs.tmp
+[2024-09-10 16:44:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/2024/09/10/hola-mundo/?simply_static_page=5
+[2024-09-10 16:44:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/2024/09/10/hola-mundo/?simply_static_page=5
+[2024-09-10 16:44:29] [class-ss-url-fetcher.php:103] Filesize: 76994 bytes
+[2024-09-10 16:44:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:29] [class-ss-url-fetcher.php:233] New filename for static page: /2024/09/10/hola-mundo/index.html
+[2024-09-10 16:44:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0776ccc0e5-j6gLWs.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/2024/09/10/hola-mundo/index.html
+[2024-09-10 16:44:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:30] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-09-10 16:44:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:30] [class-ss-page.php:119] Checking Content Identical:55d265679de98df11e0340a936f228dcddb023f2===. Value: FALSE
+[2024-09-10 16:44:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/author/elteamvaldemoro/
+[2024-09-10 16:44:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-09-10 16:44:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0776e9b9b8-52jdJy.tmp
+[2024-09-10 16:44:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/author/elteamvaldemoro/?simply_static_page=6
+[2024-09-10 16:44:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/author/elteamvaldemoro/?simply_static_page=6
+[2024-09-10 16:44:31] [class-ss-url-fetcher.php:103] Filesize: 64192 bytes
+[2024-09-10 16:44:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:31] [class-ss-url-fetcher.php:233] New filename for static page: /author/elteamvaldemoro/index.html
+[2024-09-10 16:44:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0776e9b9b8-52jdJy.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/author/elteamvaldemoro/index.html
+[2024-09-10 16:44:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:31] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-09-10 16:44:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:32] [class-ss-page.php:119] Checking Content Identical:461da8c808753510e19a7116302fd95f977fc433===. Value: FALSE
+[2024-09-10 16:44:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/category/sin-categoria/
+[2024-09-10 16:44:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-09-10 16:44:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777064e6c-eywQSv.tmp
+[2024-09-10 16:44:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/category/sin-categoria/?simply_static_page=7
+[2024-09-10 16:44:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/category/sin-categoria/?simply_static_page=7
+[2024-09-10 16:44:32] [class-ss-url-fetcher.php:103] Filesize: 56819 bytes
+[2024-09-10 16:44:32] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777102f46-7bCv14.tmp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/category/sin-categoria/
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:103] Filesize: 56819 bytes
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-09-10 16:44:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e077718a65a-cP7S6d.tmp
+[2024-09-10 16:44:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e077718a65a-cP7S6d.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:33] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-09-10 16:44:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777194313-dN2dLJ.tmp
+[2024-09-10 16:44:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0777194313-dN2dLJ.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:33] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-09-10 16:44:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e077719ef80-FvwzMr.tmp
+[2024-09-10 16:44:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e077719ef80-FvwzMr.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:33] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/blocks/navigation/view.min.js
+[2024-09-10 16:44:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07771aa87e-kpEk1J.tmp
+[2024-09-10 16:44:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07771aa87e-kpEk1J.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/blocks/navigation/view.min.js
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:33] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/feed/
+[2024-09-10 16:44:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-09-10 16:44:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07771b4e08-mdeQtq.tmp
+[2024-09-10 16:44:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/feed/?simply_static_page=12
+[2024-09-10 16:44:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/feed/?simply_static_page=12
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 1797 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07771b4e08-mdeQtq.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/feed/index.xml
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:1e365d249e226d5b8b979e59963ff1cb1d9b2112===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/comments/feed/
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777229ff3-cDvoyt.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/comments/feed/?simply_static_page=13
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/comments/feed/?simply_static_page=13
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 1772 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0777229ff3-cDvoyt.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/comments/feed/index.xml
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:64b14dfd0bb69db56823d85f4c6e53e4a1089e07===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/blocks/navigation/style.min.css
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772926f2-ADBl8J.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772926f2-ADBl8J.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/blocks/navigation/style.min.css
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/blocks/image/style.min.css
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772a12a0-BDyuib.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772a12a0-BDyuib.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/blocks/image/style.min.css
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-json/
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-json/
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/xmlrpc.php
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/xmlrpc.php
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/js/dist/interactivity.min.js
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772ab571-jVlS89.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772ab571-jVlS89.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/js/dist/interactivity.min.js
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772bab78-tkb4jw.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772bab78-tkb4jw.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772c59a1-xj89tC.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772c59a1-xj89tC.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772d16da-ZrOiMy.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772d16da-ZrOiMy.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772d7ebb-48sFju.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07772d7ebb-48sFju.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:34] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-09-10 16:44:34] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 2 de 22 páginas o archivos
+[2024-09-10 16:44:34] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-10 16:44:34] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-10 16:44:34] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-admin/
+[2024-09-10 16:44:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-09-10 16:44:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07772e2d7b-jT6ws8.tmp
+[2024-09-10 16:44:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-admin/?simply_static_page=23
+[2024-09-10 16:44:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-admin/?simply_static_page=23
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-10 16:44:35] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/valdemoroSierra/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FvaldemoroSierra%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-09-10 16:44:35] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-09-10 16:44:35] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-09-10 16:44:35] [class-ss-page.php:119] Checking Content Identical:5773e012ce0648950e75cd9dab7a3b685a674fb5===. Value: FALSE
+[2024-09-10 16:44:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/pagina-ejemplo/feed/
+[2024-09-10 16:44:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-09-10 16:44:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07773dd291-ToOPpS.tmp
+[2024-09-10 16:44:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/pagina-ejemplo/feed/?simply_static_page=24
+[2024-09-10 16:44:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/pagina-ejemplo/feed/?simply_static_page=24
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:103] Filesize: 770 bytes
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/feed/index.xml
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07773dd291-ToOPpS.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/pagina-ejemplo/feed/index.xml
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:36] [class-ss-page.php:119] Checking Content Identical:b9abaa971a3a872ba4e3e0eacf91ba5205bab61b===. Value: FALSE
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-json/wp/v2/pages/2
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-json/wp/v2/pages/2
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-json/oembed/1.0/embed
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-json/oembed/1.0/embed
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/js/comment-reply.min.js
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777451ab6-VxRzRU.tmp
+[2024-09-10 16:44:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0777451ab6-VxRzRU.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/js/comment-reply.min.js
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:36] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/2024/09/10/hola-mundo/feed/
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e077745ff9e-ChxPDS.tmp
+[2024-09-10 16:44:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/2024/09/10/hola-mundo/feed/?simply_static_page=28
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/2024/09/10/hola-mundo/feed/?simply_static_page=28
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:103] Filesize: 1780 bytes
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:233] New filename for static page: /2024/09/10/hola-mundo/feed/index.xml
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e077745ff9e-ChxPDS.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/2024/09/10/hola-mundo/feed/index.xml
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:36] [class-ss-page.php:119] Checking Content Identical:6e2d2bce645931fd39a32ac7c4d73fd276913747===. Value: FALSE
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-includes/css/dist/block-library/common.min.css
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07774ccc92-87iwOC.tmp
+[2024-09-10 16:44:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07774ccc92-87iwOC.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/wp-includes/css/dist/block-library/common.min.css
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:36] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-json/wp/v2/posts/1
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-json/wp/v2/posts/1
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/author/elteamvaldemoro/feed/
+[2024-09-10 16:44:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-09-10 16:44:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e07774d57e8-FRWB5S.tmp
+[2024-09-10 16:44:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/author/elteamvaldemoro/feed/?simply_static_page=31
+[2024-09-10 16:44:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/author/elteamvaldemoro/feed/?simply_static_page=31
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:103] Filesize: 1844 bytes
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:233] New filename for static page: /author/elteamvaldemoro/feed/index.xml
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e07774d57e8-FRWB5S.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664/author/elteamvaldemoro/feed/index.xml
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-10 16:44:37] [class-ss-page.php:119] Checking Content Identical:b296c0da74ce59496b8c3851249fe15b43d2acf1===. Value: FALSE
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-json/wp/v2/users/1
+[2024-09-10 16:44:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-json/wp/v2/users/1
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 22 de 32 páginas o archivos
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/valdemoroSierra/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FvaldemoroSierra%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-09-10 16:44:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/valdemoroSierra/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FvaldemoroSierra%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-10 16:44:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 32 de 33 páginas o archivos
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-10 16:44:37] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
+[2024-09-10 16:44:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 33 de 33 páginas o archivos
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-09-10 16:44:37] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-09-10 16:44:37] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/66e0777589041-8Tnpx7.tmp
+[2024-09-10 16:44:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/valdemoroSierra/1725986678?simply_static_page=0
+[2024-09-10 16:44:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/valdemoroSierra/1725986678?simply_static_page=0
+[2024-09-10 16:44:38] [class-ss-url-fetcher.php:103] Filesize: 56819 bytes
+[2024-09-10 16:44:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-10 16:44:38] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-09-10 16:44:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/66e0777589041-8Tnpx7.tmp to C:\wamp64\www\valdemoroSierra/wp-content/uploads\simply-static\temp-files/simply-static-1-1725986664\404/index.html
+[2024-09-10 16:44:38] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-09-10 16:44:38] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-09-10 16:44:39] [class-ss-page.php:119] Checking Content Identical:fe6e65a05b3323d0fcda331573d44c26bc9b3589===. Value: FALSE
+[2024-09-10 16:44:39] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-09-10 16:44:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transfiriendo 23 de 23 archivos
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/pagina-ejemplo
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/2024/09/10/hola-mundo
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/author/elteamvaldemoro
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/images
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/images
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/images
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/blocks/navigation
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/feed
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/comments/feed
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/blocks/navigation
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/blocks/image
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/js/dist
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-admin
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/pagina-ejemplo/feed
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/js
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/2024/09/10/hola-mundo/feed
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/wp-includes/css/dist/block-library
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/wamp64/www/valdemoroSierra/public_static/author/elteamvaldemoro/feed
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:23. Processed Pages: 23
+[2024-09-10 16:44:39] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferidos 23 de 23 archivos
+[2024-09-10 16:44:39] [trait-can-process-pages.php:103] Total pages: 23; Pages remaining: 0
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/wamp64/www/valdemoroSierra/public_static\404\index.html
+[2024-09-10 16:44:39] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-09-10 16:44:39] [class-ss-task.php:44] Status message: [destination_url] URL de destino: <a href="https://miguelrs01.github.io/ValdemoroSierra/" target="_blank">https://miguelrs01.github.io/ValdemoroSierra/</a>
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-09-10 16:44:39] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-09-10 16:44:39] [class-ss-task.php:44] Status message: [wrapup] Terminando
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-09-10 16:44:39] [class-ss-archive-creation-job.php:324] Status message: [done] ¡Hecho! Ha finalizado en 00:00:15

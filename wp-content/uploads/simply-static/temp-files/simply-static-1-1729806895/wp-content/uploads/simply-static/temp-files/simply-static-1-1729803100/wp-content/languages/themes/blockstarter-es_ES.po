@@ -1,0 +1,465 @@
+# Translation of Themes - Blockstarter in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Blockstarter package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-22 13:02:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Blockstarter\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Blockstarter is a lightweight starter block theme. It empowers you to take advantage of the latest full site editing experience in WordPress. The theme is extremely lightweight - only 30KB compressed file size without the fonts and images. No additional libraries or any unnecessary code to slow you down - only core Gutenberg blocks have been used. At the same time, we have made sure the theme is compatible with all the popular plugins and it even supports the good old Classic editor. Feel free to modify it, use it to learn how to create your own block theme or design your next awesome project. Theme demo: https://blockstarter-demo.nasiothemes.com/ Theme documentation: https://nasiothemes.com/blockstarter-theme-documentation/"
+msgstr "Blockstarter es un tema de bloques ligero y de inicio. Te permite aprovechar la más reciente experiencia de edición completa de sitios en WordPress. El tema es extremadamente ligero: sólo 30 KB de tamaño de archivo comprimido sin las fuentes ni las imágenes. No hay bibliotecas adicionales ni código innecesario que te ralentice: sólo se han utilizado los bloques del núcleo de Gutenberg. Al mismo tiempo, nos hemos asegurado de que el tema sea compatible con todos los plugins populares e incluso admite el viejo editor clásico. Siéntete libre de modificarlo, úsalo para aprender a crear tu propio tema de bloques o diseña tu próximo proyecto impresionante. Demostración del tema: https://blockstarter-demo.nasiothemes.com/. Documentación del tema: https://nasiothemes.com/blockstarter-theme-documentation/"
+
+#. Theme Name of the theme
+#: style.css functions.php:59 functions.php:164 patterns/hidden-footer.php:25
+#, gp-priority: high
+msgid "Blockstarter"
+msgstr "Blockstarter"
+
+#: functions.php:177
+msgid "Get started with Blockstarter"
+msgstr "Primeros pasos con Blockstarter"
+
+#: functions.php:168
+msgid "Thank you for choosing Blockstarter!"
+msgstr "¡Gracias por elegir Blockstarter!"
+
+#: functions.php:180
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#. translators: %1$s link
+#: functions.php:172
+msgid "To take advantage of everything that this theme can offer, please take a look at the <a href=\"%1$s\">Get Started with Blockstarter</a> page."
+msgstr "Para aprovechar todo lo que este tema puede ofrecer, echa un vistazo a la página <a href=\"%1$s\">Primeros pasos con Blockstarter</a>."
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (With Sidebar)"
+msgstr "Página (con barra lateral)"
+
+#: patterns/hidden-search.php:14
+msgid "Search"
+msgstr "Buscar"
+
+#: patterns/hidden-search.php:14
+msgid "Search site..."
+msgstr "Buscar en el sitio..."
+
+#: styles/grayscale.json
+msgctxt "Style variation name"
+msgid "Grayscale"
+msgstr "Escala de grises"
+
+#: styles/dark.json
+msgctxt "Duotone name"
+msgid "Primary"
+msgstr "Principal"
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr "Oscuro"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Pie de página"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Transparent)"
+msgstr "Cabecera (transparente)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Cabecera"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Large"
+msgstr "XX Grande"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr "Extra grande"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr "Pequeño"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr "Extra pequeño"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Small"
+msgstr "XX Pequeño"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Fondo"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Header Image overlay"
+msgstr "Superposición de la imagen de la cabecera"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Footer"
+msgstr "Pie de página"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr "Texto"
+
+#: styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Links Hover"
+msgstr "Enlaces al pasar el cursor"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Links"
+msgstr "Enlaces"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Terciario"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secundario"
+
+#: styles/dark.json styles/grayscale.json theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Principal"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Fuente del sistema"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXX Large"
+msgstr "XXX Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr "XX Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr "Extra grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr "Normal"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Pequeña"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Small"
+msgstr "Extra pequeña"
+
+#: patterns/hidden-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "Buscar"
+
+#: patterns/hidden-index-title.php
+msgctxt "Pattern title"
+msgid "Index Title"
+msgstr "Título del índice"
+
+#: patterns/hidden-footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr "Pie de página"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/05-recent-posts.php
+msgctxt "Pattern title"
+msgid "Recent Posts"
+msgstr "Entradas recientes"
+
+#: patterns/04-contact.php
+msgctxt "Pattern title"
+msgid "Contact"
+msgstr "Contacto"
+
+#: patterns/03-about.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr "Acerca de"
+
+#: patterns/02-categories.php
+msgctxt "Pattern title"
+msgid "Post Categories"
+msgstr "Categorías de las entradas"
+
+#: patterns/01-header-image.php
+msgctxt "Pattern title"
+msgid "Header Image"
+msgstr "Imagen de la cabecera"
+
+#: patterns/hidden-sidebar.php:40
+msgid "Follow Us"
+msgstr "Síguenos"
+
+#: patterns/hidden-sidebar.php:35
+msgid "Blockstarter theme documentation"
+msgstr "Documentación del tema Blockstarter"
+
+#: patterns/hidden-sidebar.php:33
+msgid "Classic themes vs block themes"
+msgstr "Temas clásicos vs temas de bloques"
+
+#: patterns/hidden-sidebar.php:31
+msgid "Full site editing in WordPress"
+msgstr "Edición completa del sitio en WordPress"
+
+#: patterns/hidden-sidebar.php:26
+msgid "Links I found useful and wanted to share."
+msgstr "Enlaces que he encontrado útiles y quería compartir."
+
+#: patterns/hidden-sidebar.php:22
+msgid "Useful Links"
+msgstr "Enlaces útiles"
+
+#: patterns/hidden-sidebar.php:13
+msgid "Search the website"
+msgstr "Busca en el sitio web"
+
+#: patterns/hidden-search.php:55
+msgid "Sorry, nothing was found for that search term."
+msgstr "Lo siento, no se ha encontrado nada para ese término de búsqueda."
+
+#: patterns/hidden-index-title.php:11
+msgid "Latest Posts"
+msgstr "Últimas entradas"
+
+#: patterns/hidden-footer.php:159
+msgid "WordPress"
+msgstr "WordPress"
+
+#: patterns/hidden-footer.php:157
+msgid "Powered by"
+msgstr "Funciona con"
+
+#: patterns/hidden-footer.php:152
+msgid "Nasio Themes"
+msgstr "Nasio Themes"
+
+#: patterns/hidden-footer.php:150
+msgid "Designed by "
+msgstr "Diseñado por "
+
+#: patterns/hidden-footer.php:132
+msgid "Case Studies"
+msgstr "Casos de éxito"
+
+#: patterns/hidden-footer.php:129
+msgid "Demo"
+msgstr "Demostración"
+
+#: patterns/hidden-footer.php:126
+msgid "Use Cases"
+msgstr "Casos de uso"
+
+#: patterns/hidden-footer.php:123
+msgid "Pricing"
+msgstr "Precios"
+
+#: patterns/hidden-footer.php:120
+msgid "Features"
+msgstr "Características"
+
+#: patterns/hidden-footer.php:114
+msgid "Product"
+msgstr "Producto"
+
+#: patterns/hidden-footer.php:104
+msgid "Documentation"
+msgstr "Documentación"
+
+#: patterns/hidden-footer.php:101
+msgid "Get Help"
+msgstr "Obtener ayuda"
+
+#: patterns/hidden-footer.php:98
+msgid "Support Docs"
+msgstr "Documentos de soporte"
+
+#: patterns/hidden-footer.php:92
+msgid "Blog"
+msgstr "Blog"
+
+#: patterns/hidden-footer.php:86
+msgid "Resources"
+msgstr "Recursos"
+
+#: patterns/hidden-footer.php:76
+msgid "Privacy Policy"
+msgstr "Política de Privacidad"
+
+#: patterns/hidden-footer.php:73 patterns/hidden-footer.php:95
+msgid "Contact"
+msgstr "Contacto"
+
+#: patterns/hidden-footer.php:70
+msgid "Brand Assets"
+msgstr "Activos de marca"
+
+#: patterns/hidden-footer.php:67
+msgid "Careers"
+msgstr "Empleos"
+
+#: patterns/hidden-footer.php:64
+msgid "About"
+msgstr "Acerca de"
+
+#: patterns/hidden-footer.php:58
+msgid "Company"
+msgstr "Empresa"
+
+#: patterns/hidden-footer.php:32
+msgid "Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Blockstarter theme. No coding skills required. Download Blockstarter for free today!"
+msgstr "Crea fácilmente sitios web bonitos y totalmente personalizables con el nuevo editor de sitios de WordPress y el tema Blockstarter. No necesitas conocimientos de programación. ¡Descarga Blockstarter gratis hoy mismo!"
+
+#: patterns/hidden-404.php:16
+msgid "Unfortunately, the page you are looking for no longer exists, or has been moved. Please try searching for your content below."
+msgstr "Lamentablemente, la página que buscas ya no existe o ha sido movida. Intenta buscar tu contenido a continuación."
+
+#: patterns/hidden-404.php:12
+msgid "Page Not Found"
+msgstr "No se ha encontrado la página"
+
+#: patterns/05-recent-posts.php:11
+msgid "You might also like"
+msgstr "Puede que también te guste"
+
+#: patterns/04-contact.php:16
+msgid "Get in touch"
+msgstr "Ponte en contacto"
+
+#: patterns/04-contact.php:11
+msgid "Contact Us"
+msgstr "Contacta con nosotros"
+
+#: patterns/03-about.php:22
+msgid "We are a non-government organization committed to sustainability and nature preservation. We are working on sustainable solutions that protect and restore habitats for wildlife species worldwide. Through innovative research, community engagement, and advocacy efforts, we strive to create a harmonious balance between human activities and the delicate ecosystems we share."
+msgstr "Somos una organización no gubernamental comprometida con la sostenibilidad y la conservación de la naturaleza. Trabajamos en soluciones sostenibles que protejan y restauren los hábitats de las especies silvestres de todo el mundo. Mediante la investigación innovadora, la participación de la comunidad y los esfuerzos de defensa, nos esforzamos por crear un equilibrio armonioso entre las actividades humanas y los delicados ecosistemas que compartimos."
+
+#: patterns/03-about.php:18
+msgid "Our Mission"
+msgstr "Nuestra misión"
+
+#: patterns/02-categories.php:46
+msgid "Guides"
+msgstr "Guías"
+
+#: patterns/02-categories.php:34
+msgid "Mountains"
+msgstr "Montañas"
+
+#: patterns/02-categories.php:22
+msgid "Outdoors"
+msgstr "Exteriores"
+
+#: patterns/02-categories.php:11
+msgid "Post Categories "
+msgstr "Categorías de las entradas "
+
+#: patterns/01-header-image.php:15
+msgid "Experience the magic of full site editing"
+msgstr "Experimenta la magia de la edición completa del sitio"
+
+#: patterns/01-header-image.php:14
+msgid "Write title…"
+msgstr "Escribe el título…"
+
+#: patterns/01-header-image.php:11
+msgid "Blockstarter "
+msgstr "Blockstarter "
+
+#: functions.php:92 functions.php:95
+msgid "Button Style"
+msgstr "Estilo de botón"
+
+#: functions.php:89
+msgid "Left Featured Image"
+msgstr "Imagen destacada izquierda"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://nasiothemes.com"
+msgstr "https://nasiothemes.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Atanas Yonkov"
+msgstr "Atanas Yonkov"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://nasiothemes.com/themes/blockstarter/"
+msgstr "https://nasiothemes.com/themes/blockstarter/"
